@@ -36,13 +36,15 @@ public class Main {
                 String cF = "F";
                 String cO = "F";
                 int number = Integer.parseInt(input);
-                if(number%100 != 0) {
-                    int bank = number%100;
-                    if(bank%50 != 0)
-                    {
+                 if (number == 0) {
+                    System.out.println("Bath bill Only(100,50,20)");
+                    continue;
+                }
+                if (number % 100 != 0) {
+                    int bank = number % 100;
+                    if (bank % 50 != 0) {
                         bank %= 50;
-                        if(bank%20 != 0)
-                        {
+                        if (bank % 20 != 0) {
                             System.out.println("Bath bill Only(100,50,20)");
                             continue;
                         }
