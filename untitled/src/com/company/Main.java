@@ -8,7 +8,7 @@ public class Main {
         System.out.println("Coin exchange system");
         Scanner Input = new Scanner(System.in);
 //      ประกาศตัวเก็บจำนวนเหรียญในเครื่องแลกเหรียญ
-        int count_ten = 0;
+        int count_ten = 100;
         int count_five = 100;
         int count_one = 100;
         while (true) {
