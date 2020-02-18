@@ -340,7 +340,7 @@ public class Main {
                 String empty = "";
                 if (input.equals("top up coin"))
                 {
-                    System.out.println("OK");
+                    System.out.println("Top up successfully");
                 }
                 else if (input.equals(empty)){
                     System.out.println("Please enter Money");
