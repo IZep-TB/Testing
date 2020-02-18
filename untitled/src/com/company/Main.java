@@ -287,7 +287,7 @@ public class Main {
                     case "TFF":
                     {
 
-                        if (count_ten >= number/10 && number %10 ==0) {
+                        if (count_ten >= number/10 ) {
                             count_ten -= number/10;
                         } else {
                             System.out.println("Not enough coins");
@@ -310,7 +310,7 @@ public class Main {
                     }
                     case "FTF":
                     {
-                        if (count_five >= number/5 && number %5 ==0) {
+                        if (count_five >= number/5 ) {
                             count_five -= number/5;
                         } else {
                             System.out.println("Not enough coins");
