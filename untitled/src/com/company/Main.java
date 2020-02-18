@@ -43,7 +43,6 @@ public class Main {
                 if (number % 100 != 0) {
                     int bank = number % 100;
                     if (bank % 50 != 0) {
-                        bank %= 50;
                         if (bank % 20 != 0) {
                             System.out.println("Bath bill Only(100,50,20)");
                             continue;
@@ -288,7 +287,7 @@ public class Main {
                     case "TFF":
                     {
 
-                        if (count_ten >= number && number %10 ==0) {
+                        if (count_ten >= number/10 && number %10 ==0) {
                             count_ten -= number/10;
                         } else {
                             System.out.println("Not enough coins");
@@ -311,7 +310,7 @@ public class Main {
                     }
                     case "FTF":
                     {
-                        if (count_five >= number && number %5 ==0) {
+                        if (count_five >= number/5 && number %5 ==0) {
                             count_five -= number/5;
                         } else {
                             System.out.println("Not enough coins");
