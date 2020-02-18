@@ -79,8 +79,6 @@ public class Main {
                             number = number - Ten * 10;
                             count_ten = 0;
                         }
-//                        System.out.println("Coin 10 : "+Ten);
-//                        System.out.println("%10 : "+number);
                         Five = number / 5;
                         if (count_five >= Five) {
                             count_five -= Five;
@@ -90,8 +88,6 @@ public class Main {
                             number = number - Five * 5;
                             count_five = 0;
                         }
-//                        System.out.println("Coin 5 : "+Five);
-//                        System.out.println("Money%5 : "+number);
                         One = number;
                         if (number > 5 && count_one >= number) {
                             count_one -= number;
@@ -238,8 +234,6 @@ public class Main {
                             number = number - Ten * 10;
                             count_ten = 0;
                         }
-//                        System.out.println("Coin 10 : "+Ten);
-//                        System.out.println("%10 : "+number);
 
                         Five = number / 5;
                         if (count_five >= Five) {
